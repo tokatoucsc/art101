@@ -8,3 +8,14 @@
   margin: 10px;
   max-width: 500px;
 }
+
+#content {
+  border: solid 5px #d69;
+  border-style: dashed;
+}
+
+p {
+  font-family: Georgia;
+  text-indent: 20px;
+  margin-left: 10px;
+}

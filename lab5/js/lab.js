@@ -1,21 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - This script contains variables for a car including make and age and lists them in our html file.
+// Author: Henry Tripp Barrick and Tomoya Kato
+// Date: October 2023
 
-// Constants
+//Variables
+
+//Strings
+  var make = "Toyota";
+  var model = "Prius";
+  var color = "silver";
+
+//Intergers
+  var year = 2007;
+  var age = 2023 - year;
+
+//Boolean
+  var ownIt = true;
 
 // Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+  document.writeln("Make: " + make + "<br>");
+  document.writeln("Model: " + model + "<br>");
+  document.writeln("Color: " + color + "<br>");
+  document.writeln("Year: " + year + "<br>");
+  document.writeln("Age: " + age + "<br>");
+  document.writeln("Do I own this: " + ownIt + "<br>");

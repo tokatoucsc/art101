@@ -1,21 +1,16 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - This is our code used in lab 7 about functions
+// Author: Henry Tripp Barrick and Tomoya Kato
+// Date: Novemeber  2023
 
-// Constants
 
-// Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function sortUserInput(){
+  var userName = window.prompt("Hello Traveler, What is your name so we may be better acquainted? :");
+  var nameArray = userName.split("");
+  var nameArraySort = nameArray.sort();
+  var nameSorted = nameArraySort.join("");
+  return nameSorted;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+document.writeln("Here is your new name :) -> ",
+  sortUserInput(), "</br>");

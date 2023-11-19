@@ -1,0 +1,10 @@
+.special {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color:aquamarine;
+    color: pink;
+    font-family: Times;
+}

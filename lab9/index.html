@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 9 - Libraries and jQuery</title>
+	<link rel="icon" href="../img/nyeco.gif" type="image/gif">
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 9 - Libraries and jQuery</h1>
+			<div id="challenge" class>
+					<h2>Challenge</h2>
+					<p>The challenge of this lab was to load in a jQuery library and use its features to create buttons to modify text.</p>			</div>
+
+			<div id="Problems" class>
+					<h2>Problems</h2>
+					<p>We had a few problems with the lab, first getting the buttons to appear which we found out was due to having the wrong class set up in this section. 
+                        This was fixed by relabelling our divs into the proper form which allowed our jQuery scripts to append buttons and properly link. 
+                        We had issues getting the css changes working properly since some appeared to be overwritten by the other css attached in it, 
+                        however we "fixed" this by making the changes of the button affect seperate css elements.</p>
+			</div>
+
+			<div id="Results" class>
+					<h2>Results</h2>
+			</div>
+
+		</section>
+		<br>
+		<nav id="links">
+			<a href="../index.html">Link back to home</a>
+		</nav>
+	</main>
+</body>
+</html>

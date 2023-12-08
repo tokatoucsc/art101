@@ -26,13 +26,23 @@
 			<h1>Lab 16 - JSON and APIs</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>write
+					<p>The challenge of the lab was to use an API for XKCD comics to display the comic
+						in our index, then use AJAX to retrieve the comics object data and use those value pairs
+						to attribute the appropriate keys to the image.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>write </p>
+					<p>There were quite a few problems with this lab. The base of getting an object from an API and adding it to a div was easy enough
+						however for the xkcd api of the assingment both my partner and I encountered a CORS error when attempting to access the 
+						endpoint from our JavaScript file. Looking online it looked as though we couldn't find a fix for this, but searching github for
+						anyone else who might've solved the issue led us to the someone who made a API of the original link and uploaded it onto 
+						github for us to luckily use. We have included a link to that below. After that we were able to get the object and 
+						store it properly but encountered another error while trying to add the alt as to the image. For whatever reason, it would 
+						initially be added with each word in the string acting as it's own tag in the html of our website. To fix this we used single 
+						quotation marks which embedded double quotation marks to surround the variable within the necessary quotation marks to 
+						properly mark it as a full string by html. Other than the essay written above, it was smooth sailing :smile:</p>
 			</div>
 
 			<div class="minor-section">
@@ -43,7 +53,8 @@
 		</section>
 		<br>
 		<nav id="links">
-			<a href="../index.html">Link back to home</a>
+			<a href="../index.html">Link back to home</a></br>
+			<a href="https://github.com/mrmartineau/xkcd-api">Link to XKCD API fix</a>
 		</nav>
 	</main>
 </body>
